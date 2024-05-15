@@ -2,11 +2,11 @@
 
 ```
     # プロジェクトの作成
-    pnpx create-next-app --ts frontend
+    npx create-next-app --ts frontend
     # パッケージのインストール
-    pnpm install
+    npm install
     # 新規インストール
-    pnpm install <package>
+    npm install <package>
     # 開発サーバーの立ち上げ
-    pnpm run dev
+    npm run dev
 ```
