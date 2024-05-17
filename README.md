@@ -10,3 +10,7 @@
     # 開発サーバーの立ち上げ
     npm run dev
 ```
+
+### 参考
+linter, formatterの設定
+- https://zenn.dev/resistance_gowy/articles/91b4f62b9f48ec
