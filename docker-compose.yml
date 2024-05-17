@@ -7,7 +7,7 @@ services:
       dockerfile: docker/Dockerfile
     tty: true
     volumes:
-      - ./frontend:/app
+      - .:/app
     ports:
       - 3000:3000
     # command: sh -c "npm install && npm run dev"

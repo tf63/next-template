@@ -1,8 +1,11 @@
 {
-    "printWidth": 120,
+    "plugins": ["prettier-plugin-tailwindcss"],
+    "tailwindFunctions": ["clsx"],
+    "printWidth": 119,
     "tabWidth": 4,
     "singleQuote": true,
-    "trailingComma": "none",
+    "trailingComma": "es5",
     "semi": false,
-    "parser": "typescript"
+    "parser": "typescript",
+    "htmlWhitespaceSensitivity": "css"
 }
