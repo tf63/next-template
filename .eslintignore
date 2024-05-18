@@ -3,8 +3,15 @@
 prettier.config.js
 next.config.js
 tailwind.config.js
-tsconfig.json
+tsconfig.*.json
 postcss.config.js
+plopfile.js
+jest.config.js
+package-lock.json
+
+*.spec.*
+*.test.*
+
 
 # build dir
 build/
