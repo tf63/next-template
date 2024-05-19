@@ -2,18 +2,18 @@
 
 ```
     # プロジェクトの作成
-    npx create-next-app --ts frontend
+    pnpx create-next-app --ts frontend
     # パッケージのインストール
-    npm install
+    pnpm install
     # 新規インストール
-    npm install <package>
+    pnpm install <package>
     # 開発サーバーの立ち上げ
-    npm run dev
+    pnpm run dev
 ```
 
 plopのインストール
 ```
-    npm i -D plop
+    pnpm add -D plop
 ```
 
 plopのtemplatesの作成
@@ -24,7 +24,7 @@ jest, react-testing-libraryの導入
 - https://qiita.com/ossan-engineer/items/4757d7457fafd44d2d2f
 - https://qiita.com/ridai/items/d87d77e329644aad3086
 ```
-    npm install -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom ts-jest @types/jest
+    pnpm add -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom ts-jest @types/jest
 ```
 
 tsconfigの設定
